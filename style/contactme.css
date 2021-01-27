@@ -4,32 +4,82 @@ body{
     background: pink;
     
 }
+.menu{
+    margin-top: -10%;
+}
 .contactme{
     width: 90%;
     margin:  auto;
-
+    margin-top: 10%;
+    
 }
 .small-bg{
     display: flex;
-    
+    margin: auto;
 }
 .form{
     background:lightblue;
     width: 45%;
+    height: 400px;
 }
-form{
-    margin: auto;
+.name{
+    display: flex;
+    
 }
+input[type=text]{
+    width: 250px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    outline: none;
+    
+}
+input[type=email]{
+    width: 89%;
+    padding: 10px;
+    display: block;
+    margin-left: 20px;
+    outline: none;
+}
+input[type=password]{
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+    outline: none;
+}
+
+input[type=number]{
+    width: 89%;
+    padding: 10px;
+    display: block;
+    margin-left: 20px;
+    outline: none;
+}
+textarea{
+    width: 92%;
+    margin-left: 20px;
+    margin-top: -15px;
+    height: 15vh;
+    outline: none;
+}
+
 .map{
     width: 45%;
     height: 400px;
     margin-left: 45px;
-    margin-top: 50px;
    
 }
 .map:nth-child(2){
     box-shadow: 10px 5px 10px rgb(168, 163, 163);
 }
-.name{
-    display: flex;
+button{
+    width: 20%;
+    margin-top: 5%;
+    height: 6vh;
+    margin-left: 80%;
+    background: yellow;
+    outline: none;
+    cursor: pointer;
+    color: red;
+    
 }

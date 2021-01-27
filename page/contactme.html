@@ -9,11 +9,11 @@
 </head>
 <body>
     <!-- menu -->
-    <!-- <div class="menu">
+    <div class="menu">
         <div>
             <ul>
-                <li class="hvr-grow"><a href="#">Home</a></li>
-                <li class="hvr-grow"><a href="page/aboutme.html">About Me</a></li>
+                <li class="hvr-grow"><a href="../index.html">Home</a></li>
+                <li class="hvr-grow"><a href="aboutme.html">About Me</a></li>
                 <li class="hvr-grow"><a href="page/resume.html">Resume</a></li>
                 <li class="hvr-grow"><a href="page/contactme.html">Contact Me</a></li>
             </ul>
@@ -24,13 +24,13 @@
                 <li class="hvr-grow"><a href="#">Download</a></li>
             </ul>
         </div>
-    </div> -->
+    </div>
     <!-- end menu -->
     <div class="contactme">
         <div class="small-bg">
             <div class="form">
                 <form action="">
-                    <div class="name">
+                    <!-- <div class="name">
                         <input type="text" placeholder="First Name">
                         <input type="text" placeholder="Last Name">
                     </div>
@@ -39,9 +39,16 @@
                     </div>
                     <div class="number">
                         <input type="number" placeholder="Number Phone">
-                    </div>
-                    <textarea name="text" id="Massages" cols="30" rows="10"></textarea>
+                    </div> -->
+                    <input type="text" name="first name" placeholder="First Name" required >
+                    <input type="text" name="last name" placeholder="Last Name" required><br><br>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required><br><br>
+                    <input type="number" placeholder="Phone Number" required><br><br>
+                    <textarea name="text" id="Massages" cols="30" rows="10" placeholder="Massages"></textarea>
                 </form>
+                <button>Submmit</button>
             </div>
             <div class="map">
                 <iframe
@@ -50,5 +57,40 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="footer">
+            <div class="media">
+                <div class="call">
+                    <img class="phone" src="../image/phone-call.png" alt="phone">
+                    <p><b>Call</b><br>+855 69293801 <br>+855 81527718  </p>
+                </div>
+                <div class="contact">
+                    <a href="https://www.gmail.com/">
+                        <img class="email" src="../image/email.png" alt="email">
+                    </a>
+                </div> 
+                <div class="fb">
+                    <a href="http://www.facebook.com/">
+                        <img class="facebook" src="../image/facebook.png" alt="facebook">
+                    </a>
+                </div>
+                <div class="twin">
+                    <a href="http://www.twitter.com/">
+                        <img class="twitter" src="../image/twitter.jpg" alt="twintter">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="info">
+                <p><b>Address:</b>BP 511 St. 371 Phum Tropeang Chhuk (Borey Sorla) Sangkat Tek Thla,
+                    Khan Sen SokPhnom Penh CAMBODIA </p>
+                <p><b>Mobile:</b>+855 69293801 or +855 81527718</p>
+                <p><b>Email:</b>vicheka.lo@student.passerellesnumeriques.org</p>
+            </div>
+
+            
+        </div>
+    </footer>
 </body>
 </html>

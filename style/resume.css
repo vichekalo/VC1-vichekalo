@@ -1,4 +1,73 @@
 body{
-    background: pink;
+    margin: 0;
+    padding: 0;
+    
 }
+.menu{
+    margin-top: -10%;
+}
+.resume{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top:30%;
+}
+
+.title{
+    display: flex;
+    margin-left: 35%;
+    padding: 10px;
+    margin-top: -25%;
+}
+.resumelogo{
+    width: 10%;
+    height: 10vh;
+}
+.title h1{
+    font-family: 'Dancing Script', cursive;
+}
+.ma-cv{
+    /* margin-left: 5%; */
+    background: rgb(209, 206, 206);
+    height: 70vh;
+    width: 80%;
+    margin:auto;
+}
+.experience{
+    display: flex;
+    margin-right: 10%;
+    
+}
+.experience h4{
+    margin-top: 5%;
+    margin-left: -1%;
+    font-size: 20px;
+}
+.worklogo{
+    margin-top: 4%;
+    width: 8%;
+    height: 5vh;
+}
+.main-text{
+    margin-left: 3%;
+    
+}
+.getting{
+    background: rgb(172, 50, 50);
+    width: 15%;
+}
+h5{
+    color: blue;
+    font-size: 15px;
+}
+.text-ex1{
+    display: flex;
+}
+.text-ex1 p{
+    width: 60%;
+    margin-left: 13%;
+}
+
+
+
 
