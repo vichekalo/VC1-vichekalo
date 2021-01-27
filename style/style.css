@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
+
 h3{
     
     text-transform: uppercase;
@@ -12,10 +14,15 @@ h3{
     align-items: center;
     background: rgb(14, 1, 46);
     margin:auto;
+    position: fixed;
+    width: 100%;
+}
+.lift{
+    margin-right: 10px;
 }
 .menu li:hover{
-    background: #000;
-    border: cornflowerblue solid 1px ;
+    background: rgb(75, 2, 59);
+    border-radius: 50px;
     
 }
 ul {
@@ -32,7 +39,7 @@ ul li a{
 .backgroud img{
     background-size: cover;
     background-position: center ;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     margin-top:-10px;
 }
@@ -40,18 +47,103 @@ ul li a{
     display: flex;
     background: rgb(211, 63, 63);
     margin:auto;
-    width: 50%;
+    width: 60%;
     height: 50vh;
-    background-position: center ;
+    background-position: 50% ;
+    margin-top: -430px;
+    border-radius: 50px;
 }
 
 .pic{
     background: rgb(207, 206, 206);
     width: 50%;
+    
 }
 
 
 .text{
-    background: rgb(245, 241, 241);
+    background: lightblue;
     width: 50%;
+    
+}
+.text h1{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+}
+.text p{
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+footer{
+    margin-top: 150px;
+    background-color:rgb(180, 44, 3);
+    height: 25vh;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    width: 100%;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    display: flex;
+}
+.phone{
+    width: 8%;
+    height: 8vh;
+    margin-top: 65px;
+    margin-left: 30%;
+} 
+.footer .call p{
+    color: white;
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+.email{
+    width: 45%;
+    height: 9vh;
+    margin-top: 65px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left:30% ;
+    
+}
+.fb{
+    display: flex;
+    margin-left: 100px;
+}
+.facebook{
+    width: 35%;
+    height: 9vh;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.twin{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.twitter{
+    width: 70%;
+    height: 9vh;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.info{
+    color: white;
+    margin-right: 30px;
+    margin-top: 15px;
 }
