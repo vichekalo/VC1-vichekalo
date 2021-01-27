@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background: rgb(209, 206, 206);
 }
 .menu{
     margin-top: -10%;
@@ -28,8 +28,7 @@ body{
 }
 .ma-cv{
     /* margin-left: 5%; */
-    background: rgb(209, 206, 206);
-    height: 70vh;
+    
     width: 80%;
     margin:auto;
 }
@@ -48,25 +47,42 @@ body{
     width: 8%;
     height: 5vh;
 }
+.educationlogo{
+    margin-top: 2%;
+    width: 10%;
+    height: 10vh;
+}
+
 .main-text{
     margin-left: 3%;
     
 }
-.getting{
-    background: rgb(172, 50, 50);
-    width: 15%;
-}
+
 h5{
     color: blue;
     font-size: 15px;
+    margin-top: 2%;
 }
 .text-ex1{
     display: flex;
 }
-.text-ex1 p{
-    width: 60%;
+.one{
+    width: 70%;
+    margin-left: 11%;
+}
+.two{
+    width: 70%;
     margin-left: 13%;
 }
+.three{
+    width: 70%;
+    margin-left: 13%;
+}
+.ones{
+    width: 70%;
+    margin-left: 13%;
+}
+
 
 
 
