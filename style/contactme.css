@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: pink;
+    
     
 }
 .menu{
@@ -18,7 +18,7 @@ body{
     margin: auto;
 }
 .form{
-    background:lightblue;
+    background:rgb(101, 108, 110,0.5);
     width: 45%;
     height: 400px;
 }
@@ -77,9 +77,17 @@ button{
     margin-top: 5%;
     height: 6vh;
     margin-left: 80%;
-    background: yellow;
+    background: teal;
     outline: none;
     cursor: pointer;
-    color: red;
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
     
+}
+footer{
+    margin-top: 10%;
+}
+.t-info1,.t-info2,.t-info3{
+   font-size: 14px; 
 }

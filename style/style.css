@@ -17,6 +17,10 @@ h3{
     position: fixed;
     width: 100%;
 }
+/* .vich{
+    width: 100%;
+    height: 20vh;
+} */
 .lift{
     margin-right: 10px;
 }
@@ -39,30 +43,57 @@ ul li a{
 .backgroud img{
     background-size: cover;
     background-position: center ;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     margin-top:-10px;
 }
 .home{
     display: flex;
-    background: rgb(211, 63, 63);
     margin:auto;
-    width: 60%;
-    height: 50vh;
+    width: 65%;
+    height: 55vh;
     background-position: 50% ;
-    margin-top: -430px;
+    margin-top: -220px;
     border-radius: 50px;
 }
-
+.text b,p{
+    color: white;
+}
+.me{
+    margin-left: 25%;
+    color: white;
+}
+.mi1{
+    margin-top: 0.3%;
+    margin-left: 16%;
+}
+.mi2{
+    margin-top: 0.3%;
+    margin-left: 10%;
+}
+.mi3{
+    margin-top: 0.3%;
+    margin-left: 14%;
+}
+.mi4{
+    margin-top: 0.3%;
+    margin-left: 13%;
+}
+.mi5{
+    margin-top: 0.3%;
+    margin-left: 11%;
+}
 .pic{
     background: rgb(207, 206, 206);
-    width: 50%;
-    
+    width: 50%; 
 }
 
-
+.age{
+    display: flex;
+    margin-left: 20px;
+}
 .text{
-    background: lightblue;
+    background: rgb(4, 54, 95,0.8);
     width: 50%;
     
 }
@@ -70,6 +101,7 @@ ul li a{
     font-family: 'Lobster', cursive;
     display: flex;
     justify-content: center;
+    color:white;
 }
 .text p{
 
@@ -80,70 +112,86 @@ h2{
 }
 
 /* footer */
+
 footer{
-    margin-top: 150px;
-    background-color:rgb(180, 44, 3);
-    height: 25vh;
-    width: 100%;
+    background: rgb(97, 32, 62);
+    margin-top: 5%;
 }
-.footer{
-    display: flex;
-    width: 100%;
-}
-.media{
-    display: flex;
-    justify-content: space-around;
-}
-.call{
+.foot{
     display: flex;
 }
-.phone{
-    width: 8%;
-    height: 8vh;
-    margin-top: 65px;
-    margin-left: 30%;
-} 
-.footer .call p{
-    color: white;
-    margin-top: 65px;
-    margin-left: 10px;
+.contact-me{
+    margin-top: 2%;
+}
+.in-twin-ins{
+    margin-top: 10%;
 }
 
-.email{
-    width: 45%;
-    height: 9vh;
-    margin-top: 65px;
+
+.email,.facebook,.YouTube,.link,.skype{
+    width: 6%;
+    height: 5vh;
+    margin-left:10% ;
+    margin-top: 4%;
+}
+
+.e-f-y{
+    margin-top: -2%;
+}
+.twinn{
+    width: 10%;
+    height: 5vh;
+    margin-left:10% ;
+    margin-top: 4%;
+}
+.facebook,.YouTube{
+    margin-left: 0%;
+}
+.in-twin-ins{
+    margin-top: -4%;
+}
+.link{
+    margin-left: 0%;
+}
+.twinn{
+    margin-left: -2%;
+}
+.email,.facebook,.YouTube{
     cursor: pointer;
-    border-radius: 50px;
-    margin-left:30% ;
+}
+.link,.skype,.twinn{
+    cursor: pointer;
+}
+
+
+
+
+/* .... */
+.infor{
+    width: 60%;
     
 }
-.fb{
-    display: flex;
-    margin-left: 100px;
-}
-.facebook{
-    width: 35%;
-    height: 9vh;
-    margin-top: 60px;
-    cursor: pointer;
-    border-radius: 50px;
-}
-.twin{
-    display: flex;
-    margin-left: 100px;
-    margin-right: 150px;
-}
-.twitter{
-    width: 70%;
-    height: 9vh;
-    margin-top: 60px;
-    cursor: pointer;
-    border-radius: 50px;
+
+.t-info1,.t-info2,.t-info3{
+    margin-top: -5%;
+    margin-left: 18%;
 }
 
-.info{
-    color: white;
-    margin-right: 30px;
-    margin-top: 15px;
+
+.add{
+    width: 6%;
+    height: 5vh;
+    margin-left:10% ;
+    margin-top: 4%;
 }
+.phone,.emii{
+    width: 6%;
+    height: 5vh;
+    margin-left:10% ;
+    margin-top: 1%;
+}
+.t-info{ 
+    margin-left: 12%;
+}
+
+

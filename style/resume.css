@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(209, 206, 206);
+    
 }
 .menu{
     margin-top: -10%;
@@ -12,7 +12,9 @@ body{
     margin: auto;
     margin-top:30%;
 }
-
+.one,.two,.three,.ones{
+    color: rgb(11, 9, 46);
+}
 .title{
     display: flex;
     margin-left: 35%;
@@ -22,13 +24,16 @@ body{
 .resumelogo{
     width: 10%;
     height: 10vh;
+    margin-top: -4%;
 }
 .title h1{
     font-family: 'Dancing Script', cursive;
+    margin-top: -3%;
+    margin-left: 2%;
 }
 .ma-cv{
     /* margin-left: 5%; */
-    
+    background: rgb(209, 206, 206);
     width: 80%;
     margin:auto;
 }
@@ -52,7 +57,16 @@ body{
     width: 10%;
     height: 10vh;
 }
-
+.languagelogo{
+    width: 6%;
+    height: 7vh;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.experience .lang{
+    margin-left: 1%;
+    margin-top: 4%;
+}
 .main-text{
     margin-left: 3%;
     
@@ -82,6 +96,88 @@ h5{
     width: 70%;
     margin-left: 13%;
 }
+
+.logo-lang{
+
+}
+.kl{
+    display: flex;
+}
+.kh{
+    width: 7%;
+    height: 5vh;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+h6{
+    margin-top: 2%;
+    font-size: 15px;
+}
+.eng{
+    width: 4%;
+    height: 6vh;
+    margin-left: 9%;
+    margin-top: -1%;
+}
+.korean{
+    width: 6%;
+    height: 5vh;
+    margin-left: 8%;
+    margin-top: -1%;
+}
+.e{
+    margin-top: 0%;
+    margin-left: 1% ;
+}
+.ko{
+    margin-top: 0%;
+    margin-left: 0% ;
+}
+.reading{
+    width: 15%;
+    height: 9vh;
+    margin-left: 4%;
+    
+}
+.read{
+    margin-left: -4%;
+    margin-top:2.5%;
+}
+.code{
+    width: 5%;
+    height: 7vh;
+    margin-left: 9%;
+    margin-top: -2%;
+}
+.music{
+    width: 7%;
+    height: 7vh;
+    margin-left: 8%;
+    margin-top: -2%;
+}
+.run{
+    width: 7%;
+    height: 7vh;
+    margin-left: 8%;
+    margin-top: -2%;
+}
+.lis{
+    margin-top: 0.5%;
+}
+.runs{
+    margin-top: -1%;
+}
+.co{
+    margin-top: -0.5%;
+    margin-left: 5px;
+}
+footer{
+    margin-top: 60%;
+}
+.t-info1,.t-info2,.t-info3{
+   font-size: 14px; 
+}
+
 
 
 

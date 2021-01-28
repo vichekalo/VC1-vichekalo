@@ -1,0 +1,116 @@
+/* .menu{
+    margin-top: -20%;
+} */
+.about-me{
+    width: 100%;
+    display: flex;
+    
+}
+.left{
+    background: rgb(216, 216, 204);
+    width: 29%;
+    
+}
+.a-miii{
+    width: 60%;
+    height: 30vh;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.vii{
+    margin-left: 25%;
+    color: blue;
+    margin-top: 2%;
+}
+.b-name,p{
+    margin-left: 7%;
+    margin-top: -2%;
+    color: black;
+}
+.bb-name{
+    margin-left: 30%;
+    margin-top: -2%;
+}
+.f{
+    width: 11%;
+}
+.l{
+    width: 11%;
+    margin-left: 2%;
+}
+.t{
+    width: 19%;
+}
+.birthday{
+    width: 7%;
+    height: 5vh;
+    margin-left:10% ;
+    margin-top: 3%;
+}
+.right{
+    
+    width: 75%;
+}
+/* <button class="rest">
+                    <b class="re">RESUME</b>
+                </button> */
+/* .rest{
+    margin-left: ;
+} */
+.above-profile{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.about-nh{
+    width: 8%;
+    height: 7vh;
+}
+.ibm{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.para{
+    width: 90%;
+    background: rgb(194, 193, 193);
+    margin: auto;
+    margin-top:3%;
+}
+.sub-para{
+    width: 90%;
+    margin-left: 2%;
+    color: black;
+}
+.mainbox{
+    display: flex;
+   margin-left: 10%;
+}
+.box1{
+    background: rgb(194, 193, 193);
+    width: 80%;
+    height: 30vh;
+}
+.design{
+    width: 30%;
+    height: 10vh;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+.webb{
+    margin-left: 30%;
+    margin-top: 1%;
+}
+.loo{
+    margin-left: 5%;
+    margin-top: -2%; 
+    color: black;
+}
+.secondline{
+    margin-top: 30%;
+}
+.box2{
+    background: rgb(194, 193, 193);
+    width: 80%;
+    height: 30vh;
+    margin-top: 10%;
+}
