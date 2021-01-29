@@ -59,7 +59,7 @@ ul li a{
     color: #fff;
     width: 70%;
     margin: auto;
-    height: 60vh;
+ 
     margin-top: 80px;
 }
 
@@ -118,16 +118,13 @@ ul li a{
 
 
 @media(max-width:1024px){
-    .menu{
-        height: 8vh;
-    }
     .menu a{
         font-size: 12px;
     }
     .text{
         width: 80%;
         margin:auto;
-        height: 60vh;
+       
         margin-top: 50px;
     }
     .text-data{font-size: 15px;padding: 0;margin-left: 8%;}
@@ -137,25 +134,12 @@ ul li a{
     .text{
         width: 80%;
         margin:auto;
-        height: 50vh;
+    
         margin-top: 50px;
     }
     .pic img{width: 250px;height: 50vh;}
     .text-data{font-size: 10px;}
     .footer{height: 30vh;grid-column-gap: 90px;}
 }
-/* .backgroud img{
-    background-size: cover;
-    background-position: center ;
-    height: 70vh;
-    width: 100%;
-    margin-top:-10px;
-} */
-@media(max-width:425px){
-    img{
-        background-size: cover;
-        background-position: center ;
-        width: 200%;
-        height: 50vh;
-        }
-}
+
+

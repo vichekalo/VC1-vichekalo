@@ -241,22 +241,20 @@ ul li a{
 
 
 @media(max-width:1024px){
-    .menu {
-        height: 8vh;
-        font-size: 5px;
+    .menu a{
+        font-size: 12px;
     }
-
-    .footer{
-        margin-top: 95%;
-        height: 28vh;
+    .text{
+        width: 80%;
+        margin:auto;
+       
+        margin-top: 50px;
     }
-    
+    .text-data{font-size: 15px;padding: 0;margin-left: 8%;}
+    .footer{height: 30vh;margin-top: 95%;}
 }
 @media(max-width:768px){
-    .footer{
-        margin-top: 140%;
-        height: 28vh;
-    }
+    .footer{height: 30vh;grid-column-gap: 90px;}
 }
 
 
