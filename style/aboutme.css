@@ -228,7 +228,7 @@ ul li a{
 }
 @media(max-width:1024px){
     .menu{
-        height: 8vh;
+        height: 14vh;
     }
     .menu a{
         font-size: 12px;
@@ -263,7 +263,7 @@ ul li a{
 @media(max-width:768px){
     .footer{height: 40vh;grid-column-gap: 90px;}
     .left{
-        
+        margin-top: 8%;
         width: 60%;
         margin-left: 20%;
     }
@@ -271,7 +271,7 @@ ul li a{
     .box2{height:40vh ;}
     .above-profile{margin-top: 50px;}
 }
-/* @media(max-width:425px){
+@media(max-width:500px){
     .footer{ height: 10vh;grid-column-gap: 40px;}
     .left{
         
@@ -281,4 +281,4 @@ ul li a{
     .box1,
     .box2{height:40vh ;}
     .above-profile{margin-top: 50px;}
-} */
+}

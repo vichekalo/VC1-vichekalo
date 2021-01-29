@@ -254,7 +254,11 @@ ul li a{
     .footer{height: 30vh;margin-top: 95%;}
 }
 @media(max-width:768px){
-    .footer{height: 30vh;grid-column-gap: 90px;}
+    .footer{height: 30vh;grid-column-gap: 90px;margin-top: 140%;}
+}
+@media(max-width:500px){
+    .footer{height: 30vh;grid-column-gap: 90px;       
+    width: 200%;}
 }
 
 
