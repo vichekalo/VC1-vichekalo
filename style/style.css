@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: rgb(108, 107, 109);
 }
 
 h3{
@@ -13,16 +14,19 @@ h3{
     justify-content: space-between;
     align-items: center;
     background: rgb(14, 1, 46);
-    margin:auto;
+    margin-left: 0px;
     position: fixed;
     width: 100%;
+}
+.right{
+    margin-left: 50px;
 }
 /* .vich{
     width: 100%;
     height: 20vh;
 } */
-.lift{
-    margin-right: 10px;
+.left{
+    margin-right: 90px;
 }
 .menu li:hover{
     background: rgb(75, 2, 59);
@@ -39,6 +43,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 .backgroud img{
     background-size: cover;
@@ -47,151 +52,110 @@ ul li a{
     width: 100%;
     margin-top:-10px;
 }
-.home{
-    display: flex;
-    margin:auto;
-    width: 65%;
-    height: 55vh;
-    background-position: 50% ;
-    margin-top: -220px;
-    border-radius: 50px;
-}
-.text b,p{
-    color: white;
-}
-.me{
-    margin-left: 25%;
-    color: white;
-}
-.mi1{
-    margin-top: 0.3%;
-    margin-left: 16%;
-}
-.mi2{
-    margin-top: 0.3%;
-    margin-left: 10%;
-}
-.mi3{
-    margin-top: 0.3%;
-    margin-left: 14%;
-}
-.mi4{
-    margin-top: 0.3%;
-    margin-left: 13%;
-}
-.mi5{
-    margin-top: 0.3%;
-    margin-left: 11%;
-}
-.pic{
-    background: rgb(207, 206, 206);
-    width: 50%; 
-}
-
-.age{
-    display: flex;
-    margin-left: 20px;
-}
 .text{
+    display: grid;
+    grid-template-columns: auto auto;
     background: rgb(4, 54, 95,0.8);
-    width: 50%;
-    
-}
-.text h1{
-    font-family: 'Lobster', cursive;
-    display: flex;
-    justify-content: center;
-    color:white;
-}
-.text p{
-
-}
-h2{
-    display: flex;
-    justify-content: center;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 80px;
 }
 
+.pic {
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.pic img{
+    width: 310px;
+    height: 60vh;
+}
+.text-data{
+    margin:20px 0 0 20px;
+    padding: 20px;
+}
+.text-data h1,
+.me {padding: 10px;}
+.text-data h1,
+.text-data p,
+.text-data b{margin: 0;padding: 8px;}
+.age{display: flex;}
+.age b{margin-right: 20px;}
 /* footer */
-
-footer{
-    background: rgb(97, 32, 62);
-    margin-top: 5%;
+.footer{
+    color: #fff;
+    width: 100%;
+    margin: 100px 0 0 0;
+    height: 25vh;
+    background:  rgb(14, 1, 46);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 300px;
 }
-.foot{
-    display: flex;
-}
+.footer a{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;}
 .contact-me{
-    margin-top: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.in-twin-ins{
-    margin-top: 10%;
-}
-
-
-.email,.facebook,.YouTube,.link,.skype{
-    width: 6%;
-    height: 5vh;
-    margin-left:10% ;
-    margin-top: 4%;
-}
-
-.e-f-y{
-    margin-top: -2%;
-}
-.twinn{
-    width: 10%;
-    height: 5vh;
-    margin-left:10% ;
-    margin-top: 4%;
-}
-.facebook,.YouTube{
-    margin-left: 0%;
-}
-.in-twin-ins{
-    margin-top: -4%;
-}
-.link{
-    margin-left: 0%;
-}
-.twinn{
-    margin-left: -2%;
-}
-.email,.facebook,.YouTube{
-    cursor: pointer;
-}
-.link,.skype,.twinn{
-    cursor: pointer;
-}
-
-
-
-
-/* .... */
 .infor{
-    width: 60%;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    display: inline-block;
 }
-
-.t-info1,.t-info2,.t-info3{
-    margin-top: -5%;
-    margin-left: 18%;
-}
-
-
-.add{
-    width: 6%;
-    height: 5vh;
-    margin-left:10% ;
-    margin-top: 4%;
-}
-.phone,.emii{
-    width: 6%;
-    height: 5vh;
-    margin-left:10% ;
-    margin-top: 1%;
-}
-.t-info{ 
-    margin-left: 12%;
-}
+.phone,
+.location,
+.email{display: flex;}
 
 
+@media(max-width:1024px){
+    .menu{
+        height: 8vh;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    .text{
+        width: 80%;
+        margin:auto;
+        height: 60vh;
+        margin-top: 50px;
+    }
+    .text-data{font-size: 15px;padding: 0;margin-left: 8%;}
+    .footer{height: 30vh;}
+}
+@media(max-width:768px){
+    .text{
+        width: 80%;
+        margin:auto;
+        height: 50vh;
+        margin-top: 50px;
+    }
+    .pic img{width: 250px;height: 50vh;}
+    .text-data{font-size: 10px;}
+    .footer{height: 30vh;grid-column-gap: 90px;}
+}
+/* .backgroud img{
+    background-size: cover;
+    background-position: center ;
+    height: 70vh;
+    width: 100%;
+    margin-top:-10px;
+} */
+@media(max-width:425px){
+    img{
+        background-size: cover;
+        background-position: center ;
+        width: 200%;
+        height: 50vh;
+        }
+}
